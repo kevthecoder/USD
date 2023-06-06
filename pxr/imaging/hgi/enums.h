@@ -435,13 +435,13 @@ enum HgiPolygonMode
 /// Controls primitive (faces) culling.
 ///
 /// <ul>
-/// <li>HgiPolygonModeNone:
+/// <li>HgiCullModeNone:
 ///   No primitive are discarded.</li>
-/// <li>HgiPolygonModeFront:
+/// <li>HgiCullModeFront:
 ///   Front-facing primitive are discarded.</li>
-/// <li>HgiPolygonModeBack:
+/// <li>HgiCullModeBack:
 ///   Back-facing primitive are discarded.</li>
-/// <li>HgiPolygonModeFrontAndBack:
+/// <li>HgiCullModeFrontAndBack:
 ///   All primitive are discarded.</li>
 /// </ul>
 ///
